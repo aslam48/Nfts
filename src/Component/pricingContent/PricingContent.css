@@ -1,0 +1,58 @@
+.section{
+    margin-top: 90px;
+}
+
+/* .featureON{
+    font-weight: 800;
+} */
+
+.companyLogo{
+    width: 1065px;
+    height: 69px;
+    background: #9290FA;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+.flex-colume{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+
+.analytics__width{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.view__our__price__btn{
+width: 325px;
+height: 88px;
+background: #9090DC;
+border-radius: 40px;
+color: white;
+font-weight: 500;
+font-size: 1.3rem;
+cursor: pointer;
+}
+
+/* 
+.build__in__text{
+    font-size: 45px;
+    font-weight: 900;
+} */
+
+.side__shadow{
+    position: absolute;
+    left: calc(50% - 652px/2 + 732px);
+    top: 468px;
+}
