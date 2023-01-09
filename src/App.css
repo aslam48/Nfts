@@ -9,8 +9,8 @@ body{
 *{
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
   margin: 0;
+ overflow-x: hidden;
 }
 
 
@@ -22,6 +22,7 @@ html {
   max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
+  padding: 30px;
 }
 
 p{

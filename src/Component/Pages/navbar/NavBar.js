@@ -6,6 +6,7 @@ import {ImCross} from  "react-icons/im"
 
 
 
+
 const NavBar = () =>  {
 const [mobile, SetMobile] = useState(false)
 
@@ -14,13 +15,14 @@ const [mobile, SetMobile] = useState(false)
 
    <nav className='navbar'>
     
-    <h3 className='logo'>Logo</h3>
+     
+     <Link to= '/'><h3 className='logo'> KRYPTO </h3></Link>
 
     <ul className= {mobile? "nav-links-mobile" : 'nav-links'} onClick={() => SetMobile(false)}>
-      <Link to= '/'> <li>About</li> </Link>
+      <Link to= 'about'> <li>About</li> </Link>
       <Link to= '/pricing'> <li>Pricing</li> </Link>
-      <Link to= '/pricing'> <li>aslam</li> </Link>
-      <Link to= '/pricing'> <li>Goat</li> </Link>
+      <Link to= '/pricing'> <li>Contact</li> </Link>
+      <Link to= '/pricing' className='Nav-buy-nfts'> <li>Buy NFTs</li> </Link>
     </ul>
   
   <button className='mobile-menu-icon' onClick={()=> SetMobile(!mobile)}>

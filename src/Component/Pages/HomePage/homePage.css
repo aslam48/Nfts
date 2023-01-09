@@ -1,0 +1,205 @@
+.PurpleShadow{
+    position: absolute;
+left: 100px;
+top: -142px;
+}
+
+.textwidth-box{
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.discover{
+    font-size: 3.1rem;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.small-text{
+    color: rgb(187, 183, 183);
+}
+
+.buy__btn{
+ font-family: 'Outfit';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.0125em;
+text-transform: uppercase;
+color: #FFFFFF;
+box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+background-color: #8080D7;
+border-radius: 40px;
+padding: 30px;
+cursor: pointer;
+}
+
+.sell__btn{
+    font-family: 'Outfit';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   letter-spacing: 0.0125em;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   padding: 30px;
+   box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+   background-color: #8080D7;
+    border-radius: 40px;
+   background-color: transparent;
+   border: 1px solid  #8080D7;
+   cursor: pointer;
+   }
+
+   .sell__btn:hover{
+    transition: ease-in-out .5s;
+    background-color: #8080D7;
+
+}
+   
+
+   .buy__btn:hover{
+    transition: ease-in-out .5s;
+    background-color: transparent;
+    border: 1px solid  #8080D7;
+   }
+
+   .flex-btn{
+    display: flex;
+  column-gap: 3rem;
+   }
+
+   .flex-item-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 3rem;
+   }
+
+   /* section 1 */
+
+
+
+
+   /* section 2 */
+   .companyLogo-box{
+    margin-top: 20px;
+width: 1288px;
+height: 66px;
+left: 0px;
+top: 43.26px;
+background: #8080D7;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+overflow-y: hidden;
+   }
+
+
+   .company-logo{
+    justify-content: center;
+    display: flex;
+   }
+
+
+
+   /* section 3 */
+
+   .width-box{
+    width: 500px;
+   }
+
+   .flex-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+   }
+
+   /* section 4 */
+
+
+
+
+   .shadow-position{
+    
+position: absolute;
+width: 485px;
+height: 485px;
+left: 1404px;
+top: 791px;
+background: #AAD9D9;
+filter: blur(152px);
+   }
+
+   /* section 5 */
+
+   .shadow-center{
+    position: absolute;
+width: 485px;
+height: 485px;
+left: 73px;
+top: 2253px;
+background: #9747FF;
+filter: blur(152px);
+   }
+
+   .center-width-container{
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+   }
+
+   .testimonial-top{
+    margin-top: 30px;
+   }
+
+
+
+
+   /* section testimonial */
+
+   .container-testimonial{
+width: 313px;
+height: 312px;
+left: 0px;
+top: 40px;
+background: #9999DF;
+border-radius: 24px;
+margin-top: 140px;
+   }
+
+   .woman_img{
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   margin-top: -60px;
+   margin-left: 110px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+
+.box{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top: 70px;
+    flex-direction: column;
+}
+
+.small-text-testimonial{
+    color: white;
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding: 17px;
+}
+
+.flex-testimonia{
+    display: flex;
+    justify-content: space-evenly;
+}
