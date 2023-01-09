@@ -147,7 +147,6 @@ const HomePage = () => {
    <p className='small-text-testimonial'>I am bueaitful as a queen. Love the apps that behaves like me all the time</p>
    <img src={Rating3} alt="" className='rate'/>
     </div>
-
 </div>
 </section>
 </div>
